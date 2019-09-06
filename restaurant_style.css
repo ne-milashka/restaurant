@@ -1,0 +1,234 @@
+body {
+    background: #20170e url("https://tomato.ua/image/resize/storage/restaurants/590c0d9066f6df0dd50a398d/1493962128590c0d9067845_8db261250562b68611d8fbf4449168fd.jpg?w=1200&amp;h=1200") no-repeat top;
+    background-size: 100%;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 257px;
+    padding-top: 100px;
+    font-size: 75px;
+    color: #362a25;
+    font-family: 'Sancreek', cursive;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #ededed;
+    z-index: 2;
+    position: relative;
+}
+
+
+menu li {
+    box-shadow: 1px 0 0 0 #4c413d, -1px 0 0 0 #1b1512, 1px 0 0 0 #4c413d, -1px 0 0 0 #1b1512;
+    list-style-type: none;
+    width: 15%;
+    text-align: center;
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    background-color: #362a25;
+    padding: 0 20px;
+}
+
+menu li a {
+    text-decoration: none;
+    display: block;
+    color: #dfdfd7;
+    font-weight: bold;
+    padding: 25px 0;
+
+
+}
+
+menu li a:hover,
+menu li a.active {
+    background-color: #251d1a;
+}
+
+
+div.h h1,
+div.h h2 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    color: #31241f;
+
+}
+
+
+h1 {
+    font-size: 47px;
+    margin-bottom: 10px;
+    color: #31241f;
+}
+
+div.h h2 {
+
+    font-weight: lighter;
+    margin-top: 0;
+    color: #31241f;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 13px;
+    line-height: 35px;
+
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 13px;
+    line-height: 35px;
+
+}
+
+hr {
+    background-color: #d1d1ce;
+    height: 1px;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.container-text {
+    display: flex;
+    color: #737373;
+}
+
+.container-text h2,
+.container-text h3 {
+    font-family: 'Sancreek', cursive;
+    color: #31241f;
+    margin-bottom: 38px;
+}
+
+.column {
+    width: 33%;
+    margin-left: 60px;
+}
+
+.container-text .column img.first-picture {
+    width: 100%;
+}
+
+
+
+.column p.calendar-text {
+    margin-bottom: 45px;
+}
+
+.column p img.calendar {
+    width: 60px;
+    ;
+    float: left;
+
+}
+
+.column p::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.column hr {
+    margin: 35px 50px 35px 0;
+}
+
+div.comment-container {
+    padding: 0 50px 0 0;
+    position: relative;
+    min-height: 65px;
+    padding-left: 70px;
+}
+
+.column p.comment-text {
+    color: #632a12;
+    font-weight: lighter;
+
+
+}
+
+p.comment-text:nth-child(2),
+p.comment-text:nth-child(4) {
+    font-weight: bold;
+}
+
+.column p img.comment {
+    width: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+footer {
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+    background-color: #241a12;
+    padding-top: 50px;
+}
+
+.container-footer {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container-footer .footer {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #86450d;
+}
+
+footer p {
+    margin: 8px;
+
+}
+
+.column a {
+    text-decoration: none;
+    color: #e2dbcd;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 8px;
+    color: #8c7e63;
+}
+
+.social-links a .fa {
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.gallery img {
+    display: inline-block;
+    list-style-type: none;
+    width: 83px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+div.text-bottom {
+    text-align: right;
+    margin-right: 300px;
+    color: #86450d;
+    font-size: 13px;
+}

@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background: #20170e url("https://tomato.ua/image/resize/storage/restaurants/590c0d9066f6df0dd50a398d/1493962128590c0d9067845_8db261250562b68611d8fbf4449168fd.jpg?w=1200&amp;h=1200") no-repeat top;
     background-size: 100%;
@@ -102,18 +106,25 @@ hr {
 .container-text {
     display: flex;
     color: #737373;
+    padding: 22px 25px 32px;
 }
 
 .container-text h2,
 .container-text h3 {
     font-family: 'Sancreek', cursive;
     color: #31241f;
-    margin-bottom: 38px;
+    font-size: 35px;
+    margin: 0;
+    padding: 10px 0 30px;
+}
+
+.container-text h3 {
+    font-size: 26px;
 }
 
 .column {
     width: 33%;
-    margin-left: 60px;
+    padding: 0 25px;
 }
 
 .container-text .column img.first-picture {
@@ -128,9 +139,7 @@ hr {
 
 .column p img.calendar {
     width: 60px;
-    ;
     float: left;
-
 }
 
 .column p::after {
@@ -153,8 +162,6 @@ div.comment-container {
 .column p.comment-text {
     color: #632a12;
     font-weight: lighter;
-
-
 }
 
 p.comment-text:nth-child(2),

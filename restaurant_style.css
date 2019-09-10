@@ -6,7 +6,7 @@ body {
 
 .logo {
     text-align: center;
-    margin-bottom: 257px;
+    margin-bottom: 265px;
     padding-top: 100px;
     font-size: 75px;
     color: #362a25;
@@ -16,7 +16,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1038px;
     background-color: #ededed;
     z-index: 2;
     position: relative;
@@ -26,7 +26,7 @@ body {
 menu li {
     box-shadow: 1px 0 0 0 #4c413d, -1px 0 0 0 #1b1512, 1px 0 0 0 #4c413d, -1px 0 0 0 #1b1512;
     list-style-type: none;
-    width: 15%;
+    width: 15.6%;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ menu li a {
     display: block;
     color: #dfdfd7;
     font-weight: bold;
-    padding: 25px 0;
+    padding: 31px 0;
 
 
 }
@@ -63,8 +63,8 @@ div.h h2 {
 
 
 h1 {
-    font-size: 47px;
-    margin-bottom: 10px;
+    font-size: 48px;
+    margin-bottom: 4px;
     color: #31241f;
 }
 
@@ -76,9 +76,10 @@ div.h h2 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 44px;
     margin-top: 13px;
     line-height: 35px;
+    margin-bottom: 38px;
 
 }
 

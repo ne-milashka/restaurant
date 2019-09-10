@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,10 +20,11 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1038px;
+    max-width: 1040px;
     background-color: #ededed;
     z-index: 2;
     position: relative;
+    border-bottom: 4px solid #86450d;
 }
 
 
@@ -39,6 +40,8 @@ menu {
     justify-content: center;
     background-color: #362a25;
     padding: 0 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 menu li a {
@@ -47,6 +50,7 @@ menu li a {
     color: #dfdfd7;
     font-weight: bold;
     padding: 31px 0;
+    font-size: 14px;
 
 
 }
@@ -66,14 +70,14 @@ div.h h2 {
 }
 
 
-h1 {
-    font-size: 48px;
-    margin-bottom: 4px;
+
+.h h1 {
+    font-size: 47px;
+    margin-bottom: 0;
     color: #31241f;
 }
 
-div.h h2 {
-
+.h h2 {
     font-weight: lighter;
     margin-top: 0;
     color: #31241f;
@@ -88,19 +92,17 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
-    margin-top: 13px;
-    line-height: 35px;
-
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 36px;
 }
+
 
 hr {
     background-color: #d1d1ce;
     height: 1px;
     border: none;
-    margin-left: 50px;
-    margin-right: 50px;
-
+    margin: 0 50px 14px;
 }
 
 .container-text {
@@ -109,8 +111,8 @@ hr {
     padding: 22px 25px 32px;
 }
 
-.container-text h2,
-.container-text h3 {
+.container-text .column h2,
+.container-text .column h3 {
     font-family: 'Sancreek', cursive;
     color: #31241f;
     font-size: 35px;
@@ -120,6 +122,17 @@ hr {
 
 .container-text h3 {
     font-size: 26px;
+    margin-bottom: 52px;
+}
+
+.container-text .column h2 {
+    Font-size: 32px;
+    line-height: 32px;
+
+}
+
+.container-text .column h3 {
+    line-height: 32px;
 }
 
 .column {
@@ -127,8 +140,13 @@ hr {
     padding: 0 25px;
 }
 
+.column:first-child {
+    margin-left: 50px;
+}
+
 .container-text .column img.first-picture {
-    width: 100%;
+    width: 85%;
+    padding-bottom: 0;
 }
 
 
@@ -177,8 +195,6 @@ p.comment-text:nth-child(4) {
 
 }
 
-
-
 footer {
     position: relative;
     margin-top: -50px;
@@ -190,6 +206,7 @@ footer {
 .container-footer {
     margin: 0 auto;
     max-width: 1000px;
+    border-bottom: 4px solid #36210f;
 }
 
 .container-footer .footer {
